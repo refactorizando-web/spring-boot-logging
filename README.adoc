@@ -1,0 +1,19 @@
+= Logging with Spring Boot =
+
+== Introduction
+
+Spring Boot allow us to use different configurations of logging using
+logback, log4j2 or even lombok to make it easy.
+
+If you want to take a look you can find more information in this link:
+https://refactorizando.com/uso-logging-spring-boot
+
+== How does it work?
+
+This is a simple example about the use of logging in a normal and
+simple Spring Boot Application. In the resource folder you can find
+a logback file and a log4j2 file with different configuration.
+
+To run it:
+
+  mvn spring-boot:run
